@@ -2,6 +2,14 @@
   "name": "smart-factory-pareto-reason-codes-pie-chart-panel",
   "version": "1.0.0",
   "description": "Pareto Analysis Reason Codes Pie Chart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spruik/smart-factory-pareto-reason-codes-pie-chart-panel"
+  },
+  "author": "Spruik Technologies",
+  "bugs": {
+    "url": "https://github.com/Spruik/smart-factory-pareto-reason-codes-pie-chart-panel/issues"
+  },
   "main": "src/module.js",
   "scripts": {
     "lint": "eslint --color .",
