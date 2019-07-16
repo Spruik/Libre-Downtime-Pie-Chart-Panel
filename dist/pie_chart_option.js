@@ -9,10 +9,10 @@ System.register(['./data_processor', './utils'], function (_export, _context) {
     var categories = dp.getCategories(data); // legends are only for categories
 
     var categoriesData = dp.getCategoriesData(categories, data);
-    console.log(categoriesData);
+    // console.log(categoriesData);
 
     var reasonsData = dp.getReasonsData(categories[0], data);
-    console.log(reasonsData);
+    // console.log(reasonsData);
 
     var isDurationMode = false;
 
