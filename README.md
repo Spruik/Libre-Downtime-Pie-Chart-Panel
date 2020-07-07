@@ -1,6 +1,6 @@
 # Downtime Pie Chart Panel
 
-| Libre Panel for Pie Chart Downtime Analysis
+> Libre Panel for Pie Chart Downtime Analysis
 
 This chart visualizes the part-to-whole of downtime categories and reasons. The outer donut is the part-to-whole of the selected inner category. Users can select an inner category to change the outer donut display. Users can toggle between downtime category/reason duration sum and frequency of occurances. A download button enables saving the graph as an image. Mouseover gives users additional information as to the downtime duration. This panel plugin is part of [Libre](https://github.com/Spruik/Libre).
 
