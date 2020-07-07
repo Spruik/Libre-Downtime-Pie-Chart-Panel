@@ -21,7 +21,7 @@ export function getOption (data, myChart) {
           myTool1: {
               show: true,
               title: 'duration',
-              icon: 'image://public/plugins/smart-factory-pareto-reason-codes-pie-chart-panel/images/switch.png',
+              icon: 'image://public/plugins/smart-factory-pareto-reason-codes-pie-chart-panel/img/switch.png',
               onclick: function (){
                 if (!isDurationMode) {
                   //change the series data to duration mode
