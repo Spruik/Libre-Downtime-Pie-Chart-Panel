@@ -1,14 +1,14 @@
 {
-  "name": "smart-factory-pareto-reason-codes-pie-chart-panel",
+  "name": "libre-downtime-pie-chart-panel",
   "version": "1.0.0",
   "description": "Pareto Analysis Reason Codes Pie Chart",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Spruik/smart-factory-pareto-reason-codes-pie-chart-panel"
+    "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel"
   },
   "author": "Spruik Technologies",
   "bugs": {
-    "url": "https://github.com/Spruik/smart-factory-pareto-reason-codes-pie-chart-panel/issues"
+    "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/issues"
   },
   "main": "src/module.js",
   "scripts": {

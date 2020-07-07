@@ -1,13 +1,13 @@
 {
-  "type": "panel",
+  "id": "libre-downtime-pie-chart-panel",
   "name": "Pareto Analysis Reason Codes Pie Chart",
-  "id": "smart-factory-pareto-reason-codes-pie-chart-panel",
-
+  "type": "panel",
   "info": {
     "description": "Pie Chart",
     "keywords": ["table", "panel"],
     "links": [
-      {"name": "Project site", "url": "https://github.com/Billiballa/grafana-table-panel"}
+      {"name": "Project site", "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel"},
+      {"name": "Issues", "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/Issues"}
     ],
     "logos": {
       "small": "img/icn-table-panel.svg",
