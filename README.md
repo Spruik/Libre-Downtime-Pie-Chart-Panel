@@ -8,24 +8,24 @@ This chart visualizes the part-to-whole of downtime categories and reasons. The 
 
 ## Installation
 
-The easiest way to get started with this plugin is to [download the latest release](https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/releases/latest/download/Libre-Downtime-Pie-Chart-Panel.zip), unzip into grafana plugin directory and restart grafana.
+The easiest way to get started with this plugin is to [download the latest release](https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/releases/latest/download/libre-downtime-pie-chart-panel.zip), unzip into grafana plugin directory and restart grafana.
 
 Download the latest release
 
 ```shell
-$ wget https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/releases/latest/download/Libre-Downtime-Pie-Chart-Panel.zip
+$ wget https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/releases/latest/download/libre-downtime-pie-chart-panel.zip
 Resolving github.com (github.com)... 140.82.114.4
 ...
-2020-06-24 20:47:59 (1.08 MB/s) - 'Libre-Downtime-Pie-Chart-Panel.zip' saved [90150]
+2020-06-24 20:47:59 (1.08 MB/s) - 'libre-downtime-pie-chart-panel.zip' saved [90150]
 ```
 
 Unzip into your Grafana plugin directory
 
 ```shell
-$ unzip Libre-Downtime-Pie-Chart-Panel.zip -d /var/lib/grafana/plugins
-Archive: Libre-Downtime-Pie-Chart-Panel.zip
+$ unzip libre-downtime-pie-chart-panel.zip -d /var/lib/grafana/plugins
+Archive: libre-downtime-pie-chart-panel.zip
 ...
-inflating: /var/lib/grafana/Libre-Downtime-Pie-Chart-Panel/utils.js.map
+inflating: /var/lib/grafana/libre-downtime-pie-chart-panel/utils.js.map
 ```
 
 Restart Grafana
