@@ -42,6 +42,8 @@ In order to get the most out of this panel:
 
 1. Add a *Table* metric to query Availability. For example `SELECT time, category, reason, parentReason FROM "Availability"`. This panel expects an ordered timeseries of time, category, reason, parentReason. Empty category/reasons are not included.
 
+![Metric](docs/libre-downtime-pie-chart-panel-metrics.png)
+
 ## Developing
 
 ### Getting Started
