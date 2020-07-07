@@ -14,6 +14,11 @@
       {"name": "Project site", "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel"},
       {"name": "Issues", "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/Issues"}
     ],
+    "screenshots": [
+      {"name": "Panel", "url": "public/plugins/libre-downtime-pie-chart-panel/docs/libre-downtime-pie-chart-panel-1.png" },
+      {"name": "Panel", "url": "public/plugins/libre-downtime-pie-chart-panel/docs/libre-downtime-pie-chart-panel-2.png" },
+      {"name": "Metrics", "url": "public/plugins/libre-downtime-pie-chart-panel/docs/libre-downtime-pie-chart-panel-metrics.png" }
+    ],
     "logos": {
       "small": "img/icn-table-panel.svg",
       "large": "img/icn-table-panel.svg"
