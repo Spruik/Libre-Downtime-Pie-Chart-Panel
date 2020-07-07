@@ -1,19 +1,20 @@
 {
-  "name": "smart-factory-pareto-reason-codes-pie-chart-panel",
+  "name": "libre-downtime-pie-chart-panel",
   "version": "1.0.0",
-  "description": "Pareto Analysis Reason Codes Pie Chart",
+  "description": "Libre Panel for Pie Chart Downtime Analysis",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Spruik/smart-factory-pareto-reason-codes-pie-chart-panel"
+    "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel"
   },
   "author": "Spruik Technologies",
   "bugs": {
-    "url": "https://github.com/Spruik/smart-factory-pareto-reason-codes-pie-chart-panel/issues"
+    "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/issues"
   },
   "main": "src/module.js",
   "scripts": {
-    "lint": "eslint --color .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt build"
   },
   "keywords": [
     "grafana",
@@ -32,6 +33,7 @@
     "grunt": "~0.4.5",
     "grunt-babel": "~6.0.0",
     "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-compress": "^1.6.0",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-copy": "~0.8.2",
     "grunt-contrib-jshint": "^1.0.0",
@@ -40,13 +42,14 @@
     "grunt-execute": "~0.2.2",
     "grunt-force-task": "^2.0.0",
     "grunt-multi-dest": "^1.0.0",
+    "grunt-string-replace": "^1.3.1",
     "grunt-systemjs-builder": "^0.2.5",
-    "load-grunt-tasks": "~3.2.0"
+    "load-grunt-tasks": "~3.2.0",
+    "standard": "^14.3.4"
   },
   "dependencies": {
     "echarts": "^4.1.0",
     "lodash": "^4.17.2",
-    "moment": "^2.12.0",
-    "pg": "^7.8.0"
+    "moment": "^2.12.0"
   }
 }

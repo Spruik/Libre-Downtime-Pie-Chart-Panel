@@ -1,0 +1,18 @@
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594131154340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Unplanned",reason="Quality",comment="Tolerances",parentReason="Quality",equipment="Palletizer" 1594131454340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594131754340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Unplanned",reason="Quality",comment="Wrong Component",parentReason="Quality",equipment="Cartooner" 1594132054340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594132354340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Planned",reason="Training",comment="New Recruit",parentReason="Training" 1594132654340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594132954340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Unplanned",reason="Quality",comment="Tolerances",parentReason="Quality" 1594133254340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594133554340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Unplanned",reason="Mechanical Breakdown",comment="Misalignment",parentReason="Mechanical Breakdown",equipment="Palletizer" 1594133854340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594134154340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Unplanned",reason="Electrical Breakdown",comment="Sensor Failure",parentReason="Electrical Breakdown",equipment="Palletizer" 1594134454340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594134754340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Planned",reason="Breaks",comment="Lunch",parentReason="Breaks" 1594135054340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594135354340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Unplanned",reason="Electrical Breakdown",comment="Proximity Switch",parentReason="Electrical Breakdown",equipment="Palletizer" 1594135654340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="execute",execute=1.00,held=0.00,idle=0.00,stopped=0.00,complete=0.00 1594135954340000000
+Availability,Site=Site,Area=Area,Line=Line-1 MachineState="held",execute=0.00,held=1.00,idle=0.00,stopped=0.00,complete=0.00,category="Unplanned",reason="Electrical Breakdown",comment="Proximity Switch",parentReason="Electrical Breakdown",equipment="Palletizer" 1594135957340000000

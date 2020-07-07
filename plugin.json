@@ -1,25 +1,33 @@
 {
+  "id": "libre-downtime-pie-chart-panel",
+  "name": "Libre Panel for Pie Chart Downtime Analysis",
   "type": "panel",
-  "name": "Pareto Analysis Reason Codes Pie Chart",
-  "id": "smart-factory-pareto-reason-codes-pie-chart-panel",
-
   "info": {
+    "author": {
+      "name": "Spruik Technologies",
+      "email": "info@spruiktec.com",
+      "url": "https://spruiktec.com"
+    },
     "description": "Pie Chart",
-    "keywords": ["table", "panel"],
+    "keywords": ["table", "panel", "libre"],
     "links": [
-      {"name": "Project site", "url": "https://github.com/Billiballa/grafana-table-panel"}
+      {"name": "Project site", "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel"},
+      {"name": "Issues", "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel/Issues"}
     ],
+    "screenshots": [
+      {"name": "Panel", "url": "public/plugins/libre-downtime-pie-chart-panel/docs/libre-downtime-pie-chart-panel-1.png" },
+      {"name": "Panel", "url": "public/plugins/libre-downtime-pie-chart-panel/docs/libre-downtime-pie-chart-panel-2.png" },
+      {"name": "Metrics", "url": "public/plugins/libre-downtime-pie-chart-panel/docs/libre-downtime-pie-chart-panel-metrics.png" }
+    ],
+    "logos": {
+      "small": "img/icn-table-panel.svg",
+      "large": "img/icn-table-panel.svg"
+    },
     "version": "1.0.0",
-    "updated": "2017-06-23"
+    "updated": "2020-07-07"
   },
-  
-  "logos": {
-    "small": "img/icn-table-panel.svg",
-    "large": "img/icn-table-panel.svg"
-  },
-
   "dependencies": {
-    "grafanaVersion": "4.x.x",
+    "grafanaVersion": "6.x.x",
     "plugins": [ ]
   }
 }
