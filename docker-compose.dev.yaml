@@ -1,0 +1,36 @@
+version: '3.6'
+
+x-common-influx-variables: &common-influx-variables
+  INFLUXDB_DB: smart_factory
+  INFLUXDB_USER: admin
+  INFLUXDB_USER_PASSWORD: admin
+
+services:
+  grafana:
+    image: grafana/grafana:6.7.4
+    ports:
+      - 3000:3000
+    environment:
+      <<: *common-influx-variables
+    volumes:
+      - ./dev/datasource.yaml:/etc/grafana/provisioning/datasources/datasource.yaml:ro
+      - ./dev/dashboard.yaml:/etc/grafana/provisioning/dashboards/dashboard.yaml:ro
+      - ./dev/dashboard.json:/dashboards/dashboard.json:ro
+      - ./dist:/var/lib/grafana/plugins/libre-downtime-pie-chart-panel:ro
+    depends_on:
+      - influx
+  telegraf:
+    image: telegraf
+    environment:
+      <<: *common-influx-variables
+    volumes:
+      - ./dev/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+      - ./dev/sample-data.out:/data/sample-data.out:ro
+    depends_on:
+      - influx
+  influx:
+    image: influxdb
+    ports:
+      - 8086:8086
+    environment: 
+      <<: *common-influx-variables
