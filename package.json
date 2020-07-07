@@ -1,7 +1,7 @@
 {
   "name": "libre-downtime-pie-chart-panel",
   "version": "1.0.0",
-  "description": "Pareto Analysis Reason Codes Pie Chart",
+  "description": "Libre Panel for Pie Chart Downtime Analysis",
   "repository": {
     "type": "git",
     "url": "https://github.com/Spruik/Libre-Downtime-Pie-Chart-Panel"
