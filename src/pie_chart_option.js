@@ -5,10 +5,8 @@ export function getOption (data, myChart) {
   const categories = dp.getCategories(data) // legends are only for categories
 
   const categoriesData = dp.getCategoriesData(categories, data)
-  // console.log(categoriesData);
 
   const reasonsData = dp.getReasonsData(categories[0], data)
-  // console.log(reasonsData);
 
   let isDurationMode = false
 
