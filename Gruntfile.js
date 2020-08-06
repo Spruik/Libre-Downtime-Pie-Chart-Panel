@@ -1,16 +1,17 @@
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt)
 
-  grunt.loadNpmTasks('grunt-execute')
-  grunt.loadNpmTasks('grunt-contrib-clean')
-  grunt.loadNpmTasks('grunt-multi-dest')
   grunt.loadNpmTasks('grunt-babel')
-  grunt.loadNpmTasks('grunt-force-task')
+  grunt.loadNpmTasks('grunt-contrib-clean')
+  grunt.loadNpmTasks('grunt-contrib-compress')
+  grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-jshint')
+  grunt.loadNpmTasks('grunt-contrib-watch')
+  grunt.loadNpmTasks('grunt-string-replace')
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    clean: ['dist', 'libre-downtime-pie-chart-panel.zip'],
+    clean: ['dist', 'libre-downtime-pie-chart-panel.zip', 'libre-downtime-pie-chart-panel.tar.gz'],
 
     jshint: {
       options: {
@@ -93,6 +94,14 @@ module.exports = function (grunt) {
         expand: true,
         cwd: 'dist/',
         src: ['**/*']
+      },
+      tar: {
+        options: {
+          archive: 'libre-downtime-pie-chart-panel.tar.gz'
+        },
+        expand: true,
+        cwd: 'dist/',
+        src: ['**/*']
       }
     }
   })
@@ -107,6 +116,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean',
     'default',
-    'compress'
+    'compress:main',
+    'compress:tar'
   ])
 }
