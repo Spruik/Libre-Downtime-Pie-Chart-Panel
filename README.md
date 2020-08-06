@@ -77,9 +77,7 @@ $ cd ./libre-downtime-pie-chart-panel
 ~/libre-downtime-pie-chart-panel
 $ npm install
 ...
-added 714 packages from 399 contributors and audited 719 packages in 11.871s
-found 42 vulnerabilities (11 low, 6 moderate, 25 high)
-  run `npm audit fix` to fix them, or `npm audit` for details
+added 622 packages in 13.118s
 ```
 
 Install Grunt globally
@@ -95,20 +93,25 @@ Run grunt to build the panel
 
 ```shell
 $ grunt
-
 Running "copy:src_to_dist" (copy) task
-Created 2 directories, copied 8 files
+Created 2 directories, copied 3 files
 
-Running "copy:libs" (copy) task
+Running "copy:echarts_libs" (copy) task
+Copied 1 file
 
 Running "copy:pluginDef" (copy) task
 Copied 1 file
 
-Running "copy:image_to_dist" (copy) task
+Running "copy:readme" (copy) task
+Created 1 directory, copied 7 files
+
+Running "string-replace:dist" (string-replace) task
+
+1 files created
 
 Running "babel:dist" (babel) task
 
-Done, without errors.
+Done.
 
 ```
 
@@ -147,13 +150,16 @@ Build panel and zip into archive
 ~/libre-downtime-pie-chart-panel
 $ grunt build
 Running "clean:0" (clean) task
->> 0 paths cleaned.
+>> 1 path cleaned.
 
 Running "clean:1" (clean) task
->> 0 paths cleaned.
+>> 1 path cleaned.
+
+Running "clean:2" (clean) task
+>> 1 path cleaned.
 
 Running "copy:src_to_dist" (copy) task
-Created 2 directories, copied 2 files
+Created 2 directories, copied 3 files
 
 Running "copy:echarts_libs" (copy) task
 Copied 1 file
@@ -171,9 +177,12 @@ Running "string-replace:dist" (string-replace) task
 Running "babel:dist" (babel) task
 
 Running "compress:main" (compress) task
->> Compressed 25 files.
+>> Compressed 26 files.
 
-Done, without errors.
+Running "compress:tar" (compress) task
+>> Compressed 26 files.
+
+Done.
 
 ```
 
@@ -188,5 +197,12 @@ For any issue, there are fundamentally three ways an individual can contribute:
 - By helping to resolve the issue: Typically, this is done either in the form of demonstrating that the issue reported is not a problem after all, or more often, by opening a Pull Request that changes some bit of something in the panel in a concrete and reviewable manner.
 
 ## Change log
+
+- 1.0.1 Add tar build output
+  - Remove unused libraries
+  - Npm audit fix
+  - Add tar build output
+  - Update README shell outputs
+  - Bump revision
 
 - 1.0.0 Initial Public Release
