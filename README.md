@@ -202,6 +202,7 @@ For any issue, there are fundamentally three ways an individual can contribute:
 
 - 1.0.2
   - Update README.md
+  - Update bl library to 1.2.3
   - Bump revision
 
 - 1.0.1 Add tar build output
