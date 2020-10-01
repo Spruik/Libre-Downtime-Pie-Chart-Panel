@@ -200,6 +200,10 @@ For any issue, there are fundamentally three ways an individual can contribute:
 
 ## Change log
 
+- 1.0.2
+  - Update README.md
+  - Bump revision
+
 - 1.0.1 Add tar build output
   - Remove unused libraries
   - Npm audit fix
