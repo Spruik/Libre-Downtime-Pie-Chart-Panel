@@ -200,6 +200,10 @@ For any issue, there are fundamentally three ways an individual can contribute:
 
 ## Change log
 
+- 1.0.3 Security Update
+  - Update ini 1.3.5 to 1.3.8
+  - Bump Revision
+
 - 1.0.2
   - Update README.md
   - Update bl library to 1.2.3
